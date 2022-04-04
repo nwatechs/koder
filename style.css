@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #242424;
+    padding: 10px 10%;
+}
+
+nav a {
+    color: white;
+}

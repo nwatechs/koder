@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page display</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- nav bar -->
+   <div class="wrap">
+       <h1 id="top">Paxs Pharmacy</h1>
+       <nav>
+           <a href="Home.html">Home</a>
+           <a href="#About Us">About Us</a>
+           <a href="http://www.livescore.com" target="_blank">Contact Us</a>
+           <a href="mailto:chidi_egwuatu@yahoo.com">Email Us</a>
+       </nav>
+            <!-- main body -->
+       <section>
+           <form action="http://www.example.com/login.php">
+
+           <fieldset>
+               <legend>Your Details</legend>
+               <label for="">Username:
+               <input type="text" name="username">
+               </label><br>
+               <label for="">Password:
+                   <input type="password" name="password">
+                   <input type="submit" name="submit" value="submit">
+               </label>
+           </fieldset>
+
+           <fieldset>
+               <legend>Your Review</legend>
+               <label for="">How Did You hear About Us?
+                   <select name="mode" id="">
+                       <option value="Radio">Radio</option>
+                       <option value="Internet">Internet</option>
+                   </select>
+               </label><br>
+               <label for="">Would You Visit Again?
+               <input type="radio" name="visit" value="yes">Yes
+               <input type="radio" name="visit" value="no">No
+               </label><br>
+
+               <label for=""> How is our services:<br>
+                <textarea name="comments" id="" cols="25" rows="4">Enter Your Comments...</textarea>
+               </label><br>
+               <label for="">
+                   <input type="checkbox" name="updates" checked="checked">Sign Me Up for Email Updates
+               </label><br>
+               <label for="">
+                   <input type="Submit" value="submit review">
+               </label>
+
+           </fieldset>
+        </form>
+      </section>
+      
+      <section>
+          <h2 id="About us">About Us</h2>
+          <p>We are the leading pharmacy store with branches in several states for medicine and health product supply,drug dispensing and related services</p>
+      </section>
+
+      <section>
+          <h2>Contact </h2>
+          <p>#80 Awka Road,Onitsha,Anambra State <br> 08066568023 </p>
+          <p> <a href="#top">Top</a></p>
+      </section>
+      <!-- footer -->
+      <section>
+          <footer> &copy;2022 </footer>
+      </section>
+    </div> 
+</body>
+</html>
